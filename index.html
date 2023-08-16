@@ -2,20 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.scss" />
+    <link rel="stylesheet" href="styles/style.scss" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
+
   <body>
     <div id="app" class="main-layout">
       <header class="header">
         <div class="container container_size_large header-layout">
-          <img
-            src="https://place-hold.it/81x28/fff/000&text=CastPress.&fontsize=12"
-            alt=""
-            class="logo"
-          />
-          <nav class="header-menu">Menu</nav>
+          <img src="logo.svg" alt="" class="logo" />
+          <nav>
+            <ul class="header-menu">
+              <li class="header-menu__item">
+                <a href="episodes.html" class="header-menu__link">Episodes</a>
+                <button class="iconic-button">
+                  <svg class="svg-icon">
+                    <use xlink:href="sprite.svg#icon_arrow_down"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="header-menu__item">
+                <a href="blog.html" class="header-menu__link">Blog</a>
+              </li>
+              <li class="header-menu__item">
+                <a href="contact.html" class="header-menu__link">contact</a>
+              </li>
+              <li class="header-menu__item header-menu__item_accent">
+                <svg class="svg-icon svg-icon_size_double">
+                  <use xlink:href="sprite.svg#icon_heart"></use>
+                </svg>
+                <a href="donate.html" class="header-menu__link">donate</a>
+              </li>
+              <li class="header-menu__item">
+                <button class="iconic-button">
+                  <svg class="svg-icon svg-icon_size_double">
+                    <use xlink:href="sprite.svg#icon_search"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
 
