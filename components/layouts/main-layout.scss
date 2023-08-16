@@ -1,0 +1,10 @@
+.main-layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 64px;
+  padding: 39px 0;
+  min-height: 100vh;
+  & > * {
+    background-color: coral;
+  }
+}
