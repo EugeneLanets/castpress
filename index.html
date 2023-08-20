@@ -46,7 +46,78 @@
         </div>
       </header>
 
-      <main class="content container container_size_small">Main</main>
+      <main class="content-layout container container_size_small">
+        <figure class="current-episode">
+          <img
+            class="current-episode__cover"
+            src="/images/episodes/current_episode_cover.jpg"
+            alt="Current episode cover"
+          />
+          <h1 class="current-episode__title heading_level_1">
+            How to rapidly test any experience!
+          </h1>
+          <div class="current-episode__player player">
+            <button class="iconic-button player__button-play">
+              <svg class="player__icon">
+                <use xlink:href="sprite.svg#icon_play"></use>
+              </svg>
+            </button>
+            <div class="player__bar">
+              <div class="player__progress"></div>
+            </div>
+            <button class="iconic-button player__button-volume">
+              <svg class="player__icon">
+                <use xlink:href="sprite.svg#icon_volume"></use>
+              </svg>
+            </button>
+            <button class="iconic-button player__button-download">
+              <svg class="player__icon">
+                <use xlink:href="sprite.svg#icon_download"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="current-episode__sources sources">
+            <h6 class="heading_level_6 sources__title">Listen on</h6>
+            <ul class="sources__list">
+              <li class="sources__item">
+                <a
+                  href="https://spotify.com"
+                  class="sources__link"
+                  target="_blank"
+                >
+                  <svg class="sources__icon">
+                    <use xlink:href="sprite.svg#icon_spotify"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sources__item">
+                <a
+                  href="https://soundcloud.com"
+                  class="sources__link"
+                  target="_blank"
+                >
+                  <svg class="sources__icon sources__icon_bigger">
+                    <use xlink:href="sprite.svg#icon_soundcloud"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sources__item">
+                <a
+                  href="https://podcasts.apple.com"
+                  class="sources__link"
+                  target="_blank"
+                >
+                  <svg class="sources__icon">
+                    <use xlink:href="sprite.svg#icon_apple"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </figure>
+        <section class="episodes">Episodes</section>
+        <section class="blog">Blog</section>
+      </main>
       <footer class="container container_size_small">Footer</footer>
     </div>
     <script type="module" src="/main.js"></script>

@@ -1,0 +1,44 @@
+.heading_level {
+  &_1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  &_2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  &_3 {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  &_4 {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  &_5 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  &_6 {
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.16em;
+  }
+}

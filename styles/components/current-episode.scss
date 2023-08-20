@@ -1,0 +1,27 @@
+.current-episode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 39px;
+  margin: 0;
+  padding: 0 0 39px;
+
+  &__cover {
+    transition: 0.3s;
+    border-radius: 4px;
+    width: 180px;
+
+    &:hover {
+      object-fit: cover;
+    }
+  }
+
+  &__controls {
+    align-self: stretch;
+    background-color: var(--lightgray02);
+    height: 16px;
+  }
+
+  &__sources {
+  }
+}

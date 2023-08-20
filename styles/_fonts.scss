@@ -1,15 +1,15 @@
 @font-face {
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/SourceSerifPro-Regular.woff2') format('woff2'),
-    url('fonts/SourceSerifPro-Regular.woff') format('woff');
+  src: url('/fonts/SourceSerifPro-Regular.woff2') format('woff2'),
+    url('/fonts/SourceSerifPro-Regular.woff') format('woff');
   font-family: 'Source Serif Pro';
 }
 
 @font-face {
   font-style: normal;
   font-weight: 600;
-  src: url('../public/fonts/SourceSerifPro-SemiBold.woff2') format('woff2'),
-    url('../public/fonts/SourceSerifPro-SemiBold.woff') format('woff');
+  src: url('/fonts/SourceSerifPro-SemiBold.woff2') format('woff2'),
+    url('/fonts/SourceSerifPro-SemiBold.woff') format('woff');
   font-family: 'Source Serif Pro';
 }
