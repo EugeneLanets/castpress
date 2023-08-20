@@ -1,0 +1,22 @@
+.episode {
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    color: var(--gray);
+    text-transform: capitalize;
+
+    &_new::before {
+      border-radius: 2px;
+      background-color: var(--lightgray01);
+      padding: 6px 8px;
+      content: 'new';
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 10px;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+}

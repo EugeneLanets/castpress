@@ -1,0 +1,13 @@
+.listen-now {
+  fill: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--accent);
+  text-transform: uppercase;
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+  }
+}
