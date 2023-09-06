@@ -4,22 +4,21 @@
     text-transform: uppercase;
   }
   &__list {
-    display: flex;
     gap: 30px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
   }
 
   &__icon {
     fill: var(--primary);
-    vertical-align: middle;
     width: 24px;
     height: 24px;
 
     &_bigger {
       width: 30px;
       height: 30px;
+    }
+
+    &:hover {
+      fill: var(--accent);
     }
   }
 }

@@ -1,0 +1,17 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  &__list {
+    @include list-reset;
+    display: flex;
+    align-items: stretch;
+    gap: 70px;
+  }
+
+  &__member {
+    width: 50%;
+    height: 100%;
+  }
+}

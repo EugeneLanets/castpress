@@ -74,36 +74,38 @@
           </div>
           <div class="current-episode__sources sources">
             <h6 class="heading_level_6 sources__title">Listen on</h6>
-            <ul class="sources__list">
-              <li class="sources__item">
+            <ul class="icons-list sources__list">
+              <li>
                 <a
                   href="https://spotify.com"
-                  class="sources__link"
+                  class="icons-list__link"
                   target="_blank"
                 >
-                  <svg class="sources__icon">
+                  <svg class="icons-list__icon sources__icon">
                     <use xlink:href="sprite.svg#icon_spotify"></use>
                   </svg>
                 </a>
               </li>
-              <li class="sources__item">
+              <li>
                 <a
                   href="https://soundcloud.com"
-                  class="sources__link"
+                  class="icons-list__link"
                   target="_blank"
                 >
-                  <svg class="sources__icon sources__icon_bigger">
+                  <svg
+                    class="icons-list__icon sources__icon sources__icon_bigger"
+                  >
                     <use xlink:href="sprite.svg#icon_soundcloud"></use>
                   </svg>
                 </a>
               </li>
-              <li class="sources__item">
+              <li>
                 <a
                   href="https://podcasts.apple.com"
-                  class="sources__link"
+                  class="icons-list__link"
                   target="_blank"
                 >
-                  <svg class="sources__icon">
+                  <svg class="icons-list__icon sources__icon">
                     <use xlink:href="sprite.svg#icon_apple"></use>
                   </svg>
                 </a>
@@ -120,7 +122,7 @@
                 <span>Jan 18, 2021</span>
               </p>
               <h2 class="heading_level_2">
-                23 - How to rapidly test any experience!
+                21 - How to rapidly test any experience!
               </h2>
               <p class="episode__description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -140,10 +142,6 @@
                 listen now
               </div>
             </li>
-          </ul>
-        </section>
-        <section class="episodes">
-          <ul class="episodes__list">
             <li class="episode">
               <p class="episode__info heading_level_5">
                 <span>business</span>
@@ -171,10 +169,6 @@
                 listen now
               </div>
             </li>
-          </ul>
-        </section>
-        <section class="episodes">
-          <ul class="episodes__list">
             <li class="episode">
               <p class="episode__info heading_level_5">
                 <span>business</span>
@@ -182,7 +176,7 @@
                 <span>Jan 18, 2021</span>
               </p>
               <h2 class="heading_level_2">
-                21 - How to rapidly test any experience!
+                23 - How to rapidly test any experience!
               </h2>
               <p class="episode__description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -203,8 +197,48 @@
               </div>
             </li>
           </ul>
+          <ul class="pagination">
+            <li class="pagination__button heading_level_6">1</li>
+            <li class="pagination__button heading_level_6">2</li>
+            <li class="pagination__button heading_level_6">3</li>
+            <li class="pagination__button heading_level_6">...</li>
+            <li class="pagination__button heading_level_6">></li>
+          </ul>
         </section>
-        <section class="blog">Blog</section>
+        <section class="team">
+          <h2 class="heading_level_1">Team</h2>
+          <ul class="team__list">
+            <li class="team__member">
+              <article class="person-card">
+                <img
+                  src="/photos/aida-cave.jpg"
+                  alt=""
+                  class="person-card__photo"
+                />
+                <div class="person-card__info">
+                  <p class="person-card__position heading_level_6">Position</p>
+                  <h3 class="person-card__name heading_level_3">Aida Cave</h3>
+                </div>
+              </article>
+            </li>
+            <li class="team__member">
+              <article class="person-card">
+                <img
+                  src="/photos/nick-carleton.jpg"
+                  alt=""
+                  class="person-card__photo"
+                />
+                <div class="person-card__info">
+                  <p class="person-card__position heading_level_6">Position</p>
+                  <h3 class="person-card__name heading_level_3">
+                    Nick Carleton
+                  </h3>
+                  <ul class="person-card__social-list"></ul>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </section>
       </main>
       <footer class="container container_size_small">Footer</footer>
     </div>

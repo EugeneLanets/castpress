@@ -1,0 +1,25 @@
+.person-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: var(--lightgray01);
+  height: 100%;
+
+  &__photo {
+    min-height: 300px;
+  }
+
+  &__info {
+    padding: 16px;
+  }
+
+  &__position {
+    margin: 0;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+
+  &__name {
+    margin: 0 0 40px;
+  }
+}
